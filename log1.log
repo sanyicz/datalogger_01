@@ -6494,3 +6494,487 @@
 2025-07-16 21:44:54,963 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
 2025-07-16 21:44:55,099 [INFO] [Main] Saving data: [id, value] = [7, 35.89].
 2025-07-16 21:44:55,101 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 21:58:29,679 [INFO] [Main] Started main program.
+2025-07-16 21:58:39,600 [INFO] [Main] Started main program.
+2025-07-16 21:58:41,005 [INFO] [Main] Connecting to database...
+2025-07-16 21:58:41,030 [INFO] [Main] Successfully connected to database.
+2025-07-16 21:58:41,031 [INFO] [Main] Getting datatables from database...
+2025-07-16 21:58:41,034 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:58:41,039 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:58:42,421 [INFO] [Main] Scanning controller units...
+2025-07-16 21:58:42,481 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 21:58:42,483 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 9600...
+2025-07-16 21:58:44,508 [INFO] [Main] Raw response on serial port /dev/ttyUSB0with baudrate 9600: controller_id_raw = 2.
+2025-07-16 21:58:44,511 [INFO] [Controller 2] Created controller with id 2 and name NotSet.
+2025-07-16 21:58:44,513 [ERROR] [Controller 2] Failed to connect to port NotSet: [Errno 2] could not open port NotSet: [Errno 2] No such file or directory: 'NotSet'
+2025-07-16 21:58:44,531 [INFO] [Main] Creating sensors for controller with id 2...
+2025-07-16 21:58:44,533 [INFO] [Main] Setting info for sensor with id 6.
+2025-07-16 21:58:44,534 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f0825af6d10> added.
+2025-07-16 21:58:44,536 [INFO] [Main] Setting info for sensor with id 7.
+2025-07-16 21:58:44,538 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f0825af6ad0> added.
+2025-07-16 21:58:44,540 [INFO] [Main] Creating graphs and sensor interface.
+2025-07-16 21:59:35,587 [INFO] [Main] Started main program.
+2025-07-16 21:59:40,167 [INFO] [Main] Connecting to database...
+2025-07-16 21:59:40,171 [INFO] [Main] Successfully connected to database.
+2025-07-16 21:59:40,173 [INFO] [Main] Getting datatables from database...
+2025-07-16 21:59:40,178 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:59:40,184 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:59:41,439 [INFO] [Main] Scanning controller units...
+2025-07-16 21:59:41,453 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 21:59:41,455 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 9600...
+2025-07-16 21:59:44,473 [INFO] [Main] Raw response on serial port /dev/ttyUSB0with baudrate 9600: controller_id_raw = .
+2025-07-16 22:00:55,979 [INFO] [Main] Started main program.
+2025-07-16 22:00:58,056 [INFO] [Main] Connecting to database...
+2025-07-16 22:00:58,107 [INFO] [Main] Successfully connected to database.
+2025-07-16 22:00:58,110 [INFO] [Main] Getting datatables from database...
+2025-07-16 22:00:58,115 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:00:58,121 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:01:00,352 [INFO] [Main] Scanning controller units...
+2025-07-16 22:01:00,364 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 22:01:00,367 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 9600...
+2025-07-16 22:01:03,382 [INFO] [Main] Raw response on serial port /dev/ttyUSB0with baudrate 9600: controller_id_raw = .
+2025-07-16 22:03:27,093 [INFO] [Main] Started main program.
+2025-07-16 22:03:29,236 [INFO] [Main] Connecting to database...
+2025-07-16 22:03:29,273 [INFO] [Main] Successfully connected to database.
+2025-07-16 22:03:29,275 [INFO] [Main] Getting datatables from database...
+2025-07-16 22:03:29,279 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:03:29,284 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:03:30,340 [INFO] [Main] Scanning controller units...
+2025-07-16 22:03:30,355 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 22:03:30,357 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 9600...
+2025-07-16 22:03:33,371 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 9600: controller_id_raw = .
+2025-07-16 22:03:33,376 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 19200...
+2025-07-16 22:03:36,395 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 19200: controller_id_raw = .
+2025-07-16 22:03:36,402 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 38400...
+2025-07-16 22:03:39,422 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 38400: controller_id_raw = .
+2025-07-16 22:03:39,424 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 57600...
+2025-07-16 22:03:42,443 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 57600: controller_id_raw = .
+2025-07-16 22:03:42,445 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 115200...
+2025-07-16 22:03:44,465 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 115200: controller_id_raw = 2.
+2025-07-16 22:03:44,469 [INFO] [Controller 2] Created controller with id 2 and name NotSet.
+2025-07-16 22:03:44,472 [ERROR] [Controller 2] Failed to connect to port NotSet: [Errno 2] could not open port NotSet: [Errno 2] No such file or directory: 'NotSet'
+2025-07-16 22:03:44,479 [INFO] [Main] Creating sensors for controller with id 2...
+2025-07-16 22:03:44,481 [INFO] [Main] Setting info for sensor with id 6.
+2025-07-16 22:03:44,482 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f642b136ad0> added.
+2025-07-16 22:03:44,485 [INFO] [Main] Setting info for sensor with id 7.
+2025-07-16 22:03:44,487 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f642b136cb0> added.
+2025-07-16 22:03:44,488 [INFO] [Main] Creating graphs and sensor interface.
+2025-07-16 22:03:52,949 [INFO] [Main] Handling measurement loop.
+2025-07-16 22:03:52,953 [INFO] [Main] Measurement loop started.
+2025-07-16 22:03:52,954 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 22:03:52,969 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 22:06:06,275 [INFO] [Main] Started main program.
+2025-07-16 22:06:07,545 [INFO] [Main] Connecting to database...
+2025-07-16 22:06:07,554 [INFO] [Main] Successfully connected to database.
+2025-07-16 22:06:07,556 [INFO] [Main] Getting datatables from database...
+2025-07-16 22:06:07,561 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:06:07,567 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:06:08,560 [INFO] [Main] Scanning controller units...
+2025-07-16 22:06:08,600 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 22:06:08,602 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 9600...
+2025-07-16 22:06:11,617 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 9600: controller_id_raw = .
+2025-07-16 22:06:11,619 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 19200...
+2025-07-16 22:06:14,638 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 19200: controller_id_raw = .
+2025-07-16 22:06:14,640 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 38400...
+2025-07-16 22:06:17,658 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 38400: controller_id_raw = .
+2025-07-16 22:06:17,661 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 57600...
+2025-07-16 22:06:20,678 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 57600: controller_id_raw = .
+2025-07-16 22:06:20,680 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 115200...
+2025-07-16 22:06:22,701 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 115200: controller_id_raw = 2.
+2025-07-16 22:06:22,703 [INFO] [Controller 2] Created controller with id 2 and name NotSet.
+2025-07-16 22:06:22,704 [ERROR] [Controller 2] Failed to connect to port NotSet: [Errno 2] could not open port NotSet: [Errno 2] No such file or directory: 'NotSet'
+2025-07-16 22:06:22,708 [INFO] [Main] Creating sensors for controller with id 2...
+2025-07-16 22:06:22,710 [INFO] [Main] Setting info for sensor with id 6.
+2025-07-16 22:06:22,712 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f82fd3a2ad0> added.
+2025-07-16 22:06:22,713 [INFO] [Main] Setting info for sensor with id 7.
+2025-07-16 22:06:22,714 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f82fd3a2cb0> added.
+2025-07-16 22:06:22,716 [INFO] [Main] Creating graphs and sensor interface.
+2025-07-16 22:06:27,608 [INFO] [Main] Handling measurement loop.
+2025-07-16 22:06:27,636 [INFO] [Main] Measurement loop started.
+2025-07-16 22:06:27,637 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 22:06:27,651 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 22:07:37,925 [INFO] [Main] Started main program.
+2025-07-16 22:07:39,570 [INFO] [Main] Connecting to database...
+2025-07-16 22:07:39,574 [INFO] [Main] Successfully connected to database.
+2025-07-16 22:07:39,576 [INFO] [Main] Getting datatables from database...
+2025-07-16 22:07:39,580 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:07:39,584 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:07:40,610 [INFO] [Main] Scanning controller units...
+2025-07-16 22:07:40,636 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 22:07:40,639 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 9600...
+2025-07-16 22:07:43,654 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 9600: controller_id_raw = .
+2025-07-16 22:07:43,657 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 19200...
+2025-07-16 22:07:46,675 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 19200: controller_id_raw = .
+2025-07-16 22:07:46,679 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 38400...
+2025-07-16 22:07:49,703 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 38400: controller_id_raw = .
+2025-07-16 22:07:49,706 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 57600...
+2025-07-16 22:07:52,722 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 57600: controller_id_raw = .
+2025-07-16 22:07:52,726 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 115200...
+2025-07-16 22:07:54,747 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 115200: controller_id_raw = 2.
+2025-07-16 22:07:54,749 [INFO] [Controller 2] Created controller with id 2 and name NotSet.
+2025-07-16 22:07:54,751 [ERROR] [Controller 2] Failed to connect to port NotSet: [Errno 2] could not open port NotSet: [Errno 2] No such file or directory: 'NotSet'
+2025-07-16 22:07:54,756 [INFO] [Main] Creating sensors for controller with id 2...
+2025-07-16 22:07:54,758 [INFO] [Main] Setting info for sensor with id 6.
+2025-07-16 22:07:54,759 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f4e67dcaad0> added.
+2025-07-16 22:07:54,762 [INFO] [Main] Setting info for sensor with id 7.
+2025-07-16 22:07:54,764 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f4e67dcacb0> added.
+2025-07-16 22:07:54,766 [INFO] [Main] Creating graphs and sensor interface.
+2025-07-16 22:07:56,762 [INFO] [Main] Handling measurement loop.
+2025-07-16 22:07:56,776 [INFO] [Main] Measurement loop started.
+2025-07-16 22:07:56,778 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 22:07:56,790 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 22:08:02,799 [INFO] [Controller 2] Connection closed on port /dev/ttyUSB0
+2025-07-16 22:08:02,898 [INFO] [Main] Saving data: [id, value] = [6, nan].
+2025-07-16 22:08:02,918 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:08:03,136 [INFO] [Main] Saving data: [id, value] = [7, nan].
+2025-07-16 22:08:03,138 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:08:06,785 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 22:08:06,798 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 22:08:12,806 [INFO] [Controller 2] Connection closed on port /dev/ttyUSB0
+2025-07-16 22:08:12,878 [INFO] [Main] Saving data: [id, value] = [6, nan].
+2025-07-16 22:08:12,930 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:08:13,053 [INFO] [Main] Saving data: [id, value] = [7, nan].
+2025-07-16 22:08:13,055 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:08:16,786 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 22:08:16,799 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 22:08:22,808 [INFO] [Controller 2] Connection closed on port /dev/ttyUSB0
+2025-07-16 22:08:22,893 [INFO] [Main] Saving data: [id, value] = [6, nan].
+2025-07-16 22:08:22,926 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:08:23,048 [INFO] [Main] Saving data: [id, value] = [7, nan].
+2025-07-16 22:08:23,050 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:10:46,516 [INFO] [Main] Started main program.
+2025-07-16 22:10:47,423 [INFO] [Main] Connecting to database...
+2025-07-16 22:10:47,427 [INFO] [Main] Successfully connected to database.
+2025-07-16 22:10:47,429 [INFO] [Main] Getting datatables from database...
+2025-07-16 22:10:47,434 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:10:47,441 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:10:49,103 [INFO] [Main] Scanning controller units...
+2025-07-16 22:10:49,113 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 22:10:49,115 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 9600...
+2025-07-16 22:10:52,131 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 9600: controller_id_raw = .
+2025-07-16 22:10:52,136 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 19200...
+2025-07-16 22:10:55,158 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 19200: controller_id_raw = .
+2025-07-16 22:10:55,162 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 38400...
+2025-07-16 22:10:58,181 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 38400: controller_id_raw = .
+2025-07-16 22:10:58,184 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 57600...
+2025-07-16 22:11:01,201 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 57600: controller_id_raw = .
+2025-07-16 22:11:01,203 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 115200...
+2025-07-16 22:11:03,222 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 115200: controller_id_raw = 2.
+2025-07-16 22:11:03,228 [INFO] [Controller 2] Created controller with id 2 and name NotSet.
+2025-07-16 22:11:03,230 [ERROR] [Controller 2] Failed to connect to port NotSet: [Errno 2] could not open port NotSet: [Errno 2] No such file or directory: 'NotSet'
+2025-07-16 22:11:03,235 [INFO] [Main] Creating sensors for controller with id 2...
+2025-07-16 22:11:03,237 [INFO] [Main] Setting info for sensor with id 6.
+2025-07-16 22:11:03,238 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f842090ead0> added.
+2025-07-16 22:11:03,239 [INFO] [Main] Setting info for sensor with id 7.
+2025-07-16 22:11:03,240 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f842090ecb0> added.
+2025-07-16 22:11:03,241 [INFO] [Main] Creating graphs and sensor interface.
+2025-07-16 22:11:05,863 [INFO] [Main] Handling measurement loop.
+2025-07-16 22:11:05,867 [INFO] [Main] Measurement loop started.
+2025-07-16 22:11:05,869 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 22:11:05,880 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 22:11:11,890 [INFO] [Controller 2] Connection closed on port /dev/ttyUSB0
+2025-07-16 22:11:11,939 [INFO] [Main] Saving data: [id, value] = [6, nan].
+2025-07-16 22:11:11,941 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:11:12,093 [INFO] [Main] Saving data: [id, value] = [7, nan].
+2025-07-16 22:11:12,145 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:11:15,875 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 22:11:15,889 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 22:11:21,898 [INFO] [Controller 2] Connection closed on port /dev/ttyUSB0
+2025-07-16 22:14:05,807 [INFO] [Main] Started main program.
+2025-07-16 22:14:09,260 [INFO] [Main] Connecting to database...
+2025-07-16 22:14:09,269 [INFO] [Main] Successfully connected to database.
+2025-07-16 22:14:09,271 [INFO] [Main] Getting datatables from database...
+2025-07-16 22:14:09,275 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:14:09,282 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:14:10,284 [INFO] [Main] Scanning controller units...
+2025-07-16 22:14:10,321 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 22:14:10,322 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 9600...
+2025-07-16 22:14:13,339 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 9600: controller_id_raw = .
+2025-07-16 22:14:13,343 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 19200...
+2025-07-16 22:14:16,359 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 19200: controller_id_raw = .
+2025-07-16 22:14:16,363 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 38400...
+2025-07-16 22:14:19,382 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 38400: controller_id_raw = .
+2025-07-16 22:14:19,386 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 57600...
+2025-07-16 22:14:22,403 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 57600: controller_id_raw = .
+2025-07-16 22:14:22,407 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 115200...
+2025-07-16 22:14:24,427 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 115200: controller_id_raw = 2.
+2025-07-16 22:14:24,429 [INFO] [Controller 2] Created controller with id 2 and name NotSet.
+2025-07-16 22:14:24,431 [ERROR] [Controller 2] Failed to connect to port NotSet: [Errno 2] could not open port NotSet: [Errno 2] No such file or directory: 'NotSet'
+2025-07-16 22:14:24,436 [INFO] [Main] Creating sensors for controller with id 2...
+2025-07-16 22:14:24,438 [INFO] [Sensor 6] Created sensor with id 6 and name NotSet.
+2025-07-16 22:14:24,440 [INFO] [Main] Setting info for sensor with id 6.
+2025-07-16 22:14:24,441 [DEBUG] [Sensor 6] Setting name of sensor with id 6 to T4.
+2025-07-16 22:14:24,443 [DEBUG] [Sensor 6] Setting type of sensor with id 6 to GY21.
+2025-07-16 22:14:24,444 [DEBUG] [Sensor 6] Setting quantity of sensor with id 6 to T.
+2025-07-16 22:14:24,447 [DEBUG] [Sensor 6] Setting unit of sensor with id 6 to C.
+2025-07-16 22:14:24,448 [DEBUG] [Sensor 6] Setting serial number of sensor with 6 to GY21_1.
+2025-07-16 22:14:24,450 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7fae54d26a70> added.
+2025-07-16 22:14:24,452 [INFO] [Sensor 7] Created sensor with id 7 and name NotSet.
+2025-07-16 22:14:24,453 [INFO] [Main] Setting info for sensor with id 7.
+2025-07-16 22:14:24,455 [DEBUG] [Sensor 7] Setting name of sensor with id 7 to RH4.
+2025-07-16 22:14:24,457 [DEBUG] [Sensor 7] Setting type of sensor with id 7 to GY21.
+2025-07-16 22:14:24,459 [DEBUG] [Sensor 7] Setting quantity of sensor with id 7 to RH.
+2025-07-16 22:14:24,460 [DEBUG] [Sensor 7] Setting unit of sensor with id 7 to %.
+2025-07-16 22:14:24,462 [DEBUG] [Sensor 7] Setting serial number of sensor with 7 to GY21_1.
+2025-07-16 22:14:24,463 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7fae54d26c20> added.
+2025-07-16 22:14:24,465 [INFO] [Main] Creating graphs and sensor interface.
+2025-07-16 22:14:30,477 [INFO] [Main] Handling measurement loop.
+2025-07-16 22:14:30,491 [INFO] [Main] Measurement loop started.
+2025-07-16 22:14:30,495 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 22:14:30,507 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 22:14:30,509 [DEBUG] [Sensor 6] Measuring, 0/3.
+2025-07-16 22:14:31,514 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:14:31,519 [DEBUG] [Sensor 6] Measuring, 1/3.
+2025-07-16 22:14:32,522 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:14:32,530 [DEBUG] [Sensor 6] Measuring, 2/3.
+2025-07-16 22:14:33,534 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:14:33,539 [DEBUG] [Sensor 7] Measuring, 0/3.
+2025-07-16 22:14:34,542 [DEBUG] [Sensor 7] Response: .
+2025-07-16 22:14:34,546 [DEBUG] [Sensor 7] Measuring, 1/3.
+2025-07-16 22:14:35,549 [DEBUG] [Sensor 7] Response: .
+2025-07-16 22:14:35,553 [DEBUG] [Sensor 7] Measuring, 2/3.
+2025-07-16 22:14:36,555 [DEBUG] [Sensor 7] Response: .
+2025-07-16 22:14:36,559 [INFO] [Controller 2] Connection closed on port /dev/ttyUSB0
+2025-07-16 22:14:36,603 [INFO] [Main] Saving data: [id, value] = [6, nan].
+2025-07-16 22:14:36,605 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:14:36,757 [INFO] [Main] Saving data: [id, value] = [7, nan].
+2025-07-16 22:14:36,810 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:14:40,495 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 22:14:40,537 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 22:14:40,540 [DEBUG] [Sensor 6] Measuring, 0/3.
+2025-07-16 22:14:41,542 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:14:41,549 [DEBUG] [Sensor 6] Measuring, 1/3.
+2025-07-16 22:14:42,552 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:14:42,558 [DEBUG] [Sensor 6] Measuring, 2/3.
+2025-07-16 22:14:43,560 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:14:43,567 [DEBUG] [Sensor 7] Measuring, 0/3.
+2025-07-16 22:14:44,571 [DEBUG] [Sensor 7] Response: .
+2025-07-16 22:14:44,576 [DEBUG] [Sensor 7] Measuring, 1/3.
+2025-07-16 22:14:45,579 [DEBUG] [Sensor 7] Response: .
+2025-07-16 22:14:45,582 [DEBUG] [Sensor 7] Measuring, 2/3.
+2025-07-16 22:14:46,585 [DEBUG] [Sensor 7] Response: .
+2025-07-16 22:14:46,590 [INFO] [Controller 2] Connection closed on port /dev/ttyUSB0
+2025-07-16 22:14:46,686 [INFO] [Main] Saving data: [id, value] = [6, nan].
+2025-07-16 22:14:46,703 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:14:46,826 [INFO] [Main] Saving data: [id, value] = [7, nan].
+2025-07-16 22:14:46,829 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:15:31,635 [INFO] [Main] Started main program.
+2025-07-16 22:15:32,622 [INFO] [Main] Connecting to database...
+2025-07-16 22:15:32,658 [INFO] [Main] Successfully connected to database.
+2025-07-16 22:15:32,661 [INFO] [Main] Getting datatables from database...
+2025-07-16 22:15:32,665 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:15:32,671 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:15:34,510 [INFO] [Main] Scanning controller units...
+2025-07-16 22:15:34,521 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 22:15:34,523 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 9600...
+2025-07-16 22:15:37,539 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 9600: controller_id_raw = .
+2025-07-16 22:15:37,542 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 19200...
+2025-07-16 22:15:40,562 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 19200: controller_id_raw = .
+2025-07-16 22:15:40,565 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 38400...
+2025-07-16 22:15:43,583 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 38400: controller_id_raw = .
+2025-07-16 22:15:43,585 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 57600...
+2025-07-16 22:15:46,602 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 57600: controller_id_raw = .
+2025-07-16 22:15:46,605 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 115200...
+2025-07-16 22:15:48,625 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 115200: controller_id_raw = 2.
+2025-07-16 22:15:48,626 [INFO] [Controller 2] Created controller with id 2 and name NotSet.
+2025-07-16 22:15:48,629 [ERROR] [Controller 2] Failed to connect to port NotSet: [Errno 2] could not open port NotSet: [Errno 2] No such file or directory: 'NotSet'
+2025-07-16 22:15:48,634 [INFO] [Main] Creating sensors for controller with id 2...
+2025-07-16 22:15:48,636 [INFO] [Sensor 6] Created sensor with id 6 and name NotSet.
+2025-07-16 22:15:48,637 [INFO] [Main] Setting info for sensor with id 6.
+2025-07-16 22:15:48,638 [DEBUG] [Sensor 6] Setting name of sensor with id 6 to T4.
+2025-07-16 22:15:48,639 [DEBUG] [Sensor 6] Setting type of sensor with id 6 to GY21.
+2025-07-16 22:15:48,641 [DEBUG] [Sensor 6] Setting quantity of sensor with id 6 to T.
+2025-07-16 22:15:48,642 [DEBUG] [Sensor 6] Setting unit of sensor with id 6 to C.
+2025-07-16 22:15:48,643 [DEBUG] [Sensor 6] Setting serial number of sensor with 6 to GY21_1.
+2025-07-16 22:15:48,644 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7feb6a9c2aa0> added.
+2025-07-16 22:15:48,645 [INFO] [Sensor 7] Created sensor with id 7 and name NotSet.
+2025-07-16 22:15:48,646 [INFO] [Main] Setting info for sensor with id 7.
+2025-07-16 22:15:48,647 [DEBUG] [Sensor 7] Setting name of sensor with id 7 to RH4.
+2025-07-16 22:15:48,648 [DEBUG] [Sensor 7] Setting type of sensor with id 7 to GY21.
+2025-07-16 22:15:48,649 [DEBUG] [Sensor 7] Setting quantity of sensor with id 7 to RH.
+2025-07-16 22:15:48,651 [DEBUG] [Sensor 7] Setting unit of sensor with id 7 to %.
+2025-07-16 22:15:48,652 [DEBUG] [Sensor 7] Setting serial number of sensor with 7 to GY21_1.
+2025-07-16 22:15:48,653 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7feb6a9c2c50> added.
+2025-07-16 22:15:48,654 [INFO] [Main] Creating graphs and sensor interface.
+2025-07-16 22:15:50,407 [INFO] [Main] Handling measurement loop.
+2025-07-16 22:15:50,410 [INFO] [Main] Measurement loop started.
+2025-07-16 22:15:50,414 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 22:15:50,426 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 22:15:50,428 [DEBUG] [Sensor 6] Measuring, 0/5.
+2025-07-16 22:15:51,432 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:15:51,436 [DEBUG] [Sensor 6] Measuring, 1/5.
+2025-07-16 22:15:52,438 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:15:52,443 [DEBUG] [Sensor 6] Measuring, 2/5.
+2025-07-16 22:15:53,446 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:15:53,449 [DEBUG] [Sensor 6] Measuring, 3/5.
+2025-07-16 22:15:54,451 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:15:54,455 [DEBUG] [Sensor 6] Measuring, 4/5.
+2025-07-16 22:15:55,458 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:15:55,463 [DEBUG] [Sensor 7] Measuring, 0/5.
+2025-07-16 22:15:56,465 [DEBUG] [Sensor 7] Response: .
+2025-07-16 22:15:56,471 [DEBUG] [Sensor 7] Measuring, 1/5.
+2025-07-16 22:15:56,527 [DEBUG] [Sensor 7] Response: 39.32.
+2025-07-16 22:15:56,576 [DEBUG] [Sensor 7] Measuring, 2/5.
+2025-07-16 22:15:56,631 [DEBUG] [Sensor 7] Response: 39.36.
+2025-07-16 22:15:56,679 [DEBUG] [Sensor 7] Measuring, 3/5.
+2025-07-16 22:15:56,738 [DEBUG] [Sensor 7] Response: 39.40.
+2025-07-16 22:15:56,785 [DEBUG] [Sensor 7] Measuring, 4/5.
+2025-07-16 22:15:56,841 [DEBUG] [Sensor 7] Response: 39.46.
+2025-07-16 22:15:56,890 [INFO] [Controller 2] Connection closed on port /dev/ttyUSB0
+2025-07-16 22:15:56,989 [INFO] [Main] Saving data: [id, value] = [6, nan].
+2025-07-16 22:15:56,997 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:15:57,109 [INFO] [Main] Saving data: [id, value] = [7, 39.46].
+2025-07-16 22:15:57,111 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:16:00,415 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 22:16:00,434 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 22:16:00,437 [DEBUG] [Sensor 6] Measuring, 0/5.
+2025-07-16 22:16:01,441 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:16:01,447 [DEBUG] [Sensor 6] Measuring, 1/5.
+2025-07-16 22:16:02,450 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:16:02,455 [DEBUG] [Sensor 6] Measuring, 2/5.
+2025-07-16 22:16:03,457 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:16:03,463 [DEBUG] [Sensor 6] Measuring, 3/5.
+2025-07-16 22:16:04,465 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:16:04,470 [DEBUG] [Sensor 6] Measuring, 4/5.
+2025-07-16 22:16:05,474 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:16:05,479 [DEBUG] [Sensor 7] Measuring, 0/5.
+2025-07-16 22:16:06,481 [DEBUG] [Sensor 7] Response: .
+2025-07-16 22:16:06,486 [DEBUG] [Sensor 7] Measuring, 1/5.
+2025-07-16 22:16:06,542 [DEBUG] [Sensor 7] Response: 39.00.
+2025-07-16 22:16:06,590 [DEBUG] [Sensor 7] Measuring, 2/5.
+2025-07-16 22:16:06,646 [DEBUG] [Sensor 7] Response: 38.98.
+2025-07-16 22:16:06,695 [DEBUG] [Sensor 7] Measuring, 3/5.
+2025-07-16 22:16:06,751 [DEBUG] [Sensor 7] Response: 38.95.
+2025-07-16 22:16:06,800 [DEBUG] [Sensor 7] Measuring, 4/5.
+2025-07-16 22:16:06,856 [DEBUG] [Sensor 7] Response: 38.93.
+2025-07-16 22:16:06,907 [INFO] [Controller 2] Connection closed on port /dev/ttyUSB0
+2025-07-16 22:17:19,402 [INFO] [Main] Started main program.
+2025-07-16 22:17:21,369 [INFO] [Main] Connecting to database...
+2025-07-16 22:17:21,376 [INFO] [Main] Successfully connected to database.
+2025-07-16 22:17:21,379 [INFO] [Main] Getting datatables from database...
+2025-07-16 22:17:21,384 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:17:21,390 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:17:23,369 [INFO] [Main] Scanning controller units...
+2025-07-16 22:17:23,377 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 22:17:23,379 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 9600...
+2025-07-16 22:17:25,404 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 9600: controller_id_raw = 2.
+2025-07-16 22:17:25,406 [INFO] [Controller 2] Created controller with id 2 and name NotSet.
+2025-07-16 22:17:25,408 [ERROR] [Controller 2] Failed to connect to port NotSet: [Errno 2] could not open port NotSet: [Errno 2] No such file or directory: 'NotSet'
+2025-07-16 22:17:25,424 [INFO] [Main] Creating sensors for controller with id 2...
+2025-07-16 22:17:25,427 [INFO] [Sensor 6] Created sensor with id 6 and name NotSet.
+2025-07-16 22:17:25,428 [INFO] [Main] Setting info for sensor with id 6.
+2025-07-16 22:17:25,429 [DEBUG] [Sensor 6] Setting name of sensor with id 6 to T4.
+2025-07-16 22:17:25,431 [DEBUG] [Sensor 6] Setting type of sensor with id 6 to GY21.
+2025-07-16 22:17:25,433 [DEBUG] [Sensor 6] Setting quantity of sensor with id 6 to T.
+2025-07-16 22:17:25,435 [DEBUG] [Sensor 6] Setting unit of sensor with id 6 to C.
+2025-07-16 22:17:25,436 [DEBUG] [Sensor 6] Setting serial number of sensor with 6 to GY21_1.
+2025-07-16 22:17:25,438 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f1dd2cd6ce0> added.
+2025-07-16 22:17:25,440 [INFO] [Sensor 7] Created sensor with id 7 and name NotSet.
+2025-07-16 22:17:25,441 [INFO] [Main] Setting info for sensor with id 7.
+2025-07-16 22:17:25,443 [DEBUG] [Sensor 7] Setting name of sensor with id 7 to RH4.
+2025-07-16 22:17:25,444 [DEBUG] [Sensor 7] Setting type of sensor with id 7 to GY21.
+2025-07-16 22:17:25,447 [DEBUG] [Sensor 7] Setting quantity of sensor with id 7 to RH.
+2025-07-16 22:17:25,448 [DEBUG] [Sensor 7] Setting unit of sensor with id 7 to %.
+2025-07-16 22:17:25,450 [DEBUG] [Sensor 7] Setting serial number of sensor with 7 to GY21_1.
+2025-07-16 22:17:25,451 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f1dd2cd5c60> added.
+2025-07-16 22:17:25,453 [INFO] [Main] Creating graphs and sensor interface.
+2025-07-16 22:17:28,849 [INFO] [Main] Handling measurement loop.
+2025-07-16 22:17:28,867 [INFO] [Main] Measurement loop started.
+2025-07-16 22:17:28,869 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 22:17:28,880 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 22:17:28,883 [DEBUG] [Sensor 6] Measuring, 0/3.
+2025-07-16 22:17:29,886 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:17:29,894 [DEBUG] [Sensor 6] Measuring, 1/3.
+2025-07-16 22:17:30,896 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:17:30,902 [DEBUG] [Sensor 6] Measuring, 2/3.
+2025-07-16 22:17:30,966 [DEBUG] [Sensor 6] Response: 28.37.
+2025-07-16 22:17:31,007 [DEBUG] [Sensor 7] Measuring, 0/3.
+2025-07-16 22:17:31,071 [DEBUG] [Sensor 7] Response: 38.40.
+2025-07-16 22:17:31,111 [DEBUG] [Sensor 7] Measuring, 1/3.
+2025-07-16 22:17:31,175 [DEBUG] [Sensor 7] Response: 38.40.
+2025-07-16 22:17:31,218 [DEBUG] [Sensor 7] Measuring, 2/3.
+2025-07-16 22:17:31,283 [DEBUG] [Sensor 7] Response: 38.40.
+2025-07-16 22:17:31,325 [INFO] [Controller 2] Connection closed on port /dev/ttyUSB0
+2025-07-16 22:17:31,344 [INFO] [Main] Saving data: [id, value] = [6, 28.37].
+2025-07-16 22:17:31,345 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:17:31,474 [INFO] [Main] Saving data: [id, value] = [7, 38.4].
+2025-07-16 22:17:31,477 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:17:38,870 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 22:17:38,915 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 22:17:38,918 [DEBUG] [Sensor 6] Measuring, 0/3.
+2025-07-16 22:17:39,921 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:17:39,928 [DEBUG] [Sensor 6] Measuring, 1/3.
+2025-07-16 22:17:40,934 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:17:40,939 [DEBUG] [Sensor 6] Measuring, 2/3.
+2025-07-16 22:17:41,006 [DEBUG] [Sensor 6] Response: 28.37.
+2025-07-16 22:17:41,045 [DEBUG] [Sensor 7] Measuring, 0/3.
+2025-07-16 22:17:41,110 [DEBUG] [Sensor 7] Response: 38.78.
+2025-07-16 22:17:41,149 [DEBUG] [Sensor 7] Measuring, 1/3.
+2025-07-16 22:17:41,213 [DEBUG] [Sensor 7] Response: 38.75.
+2025-07-16 22:17:41,253 [DEBUG] [Sensor 7] Measuring, 2/3.
+2025-07-16 22:17:41,318 [DEBUG] [Sensor 7] Response: 38.73.
+2025-07-16 22:17:41,360 [INFO] [Controller 2] Connection closed on port /dev/ttyUSB0
+2025-07-16 22:17:41,397 [INFO] [Main] Saving data: [id, value] = [6, 28.37].
+2025-07-16 22:17:41,399 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:17:41,527 [INFO] [Main] Saving data: [id, value] = [7, 38.73].
+2025-07-16 22:17:41,530 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:17:48,874 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 22:17:48,886 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 22:17:48,888 [DEBUG] [Sensor 6] Measuring, 0/3.
+2025-07-16 22:17:49,892 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:17:49,897 [DEBUG] [Sensor 6] Measuring, 1/3.
+2025-07-16 22:17:50,901 [DEBUG] [Sensor 6] Response: .
+2025-07-16 22:17:50,904 [DEBUG] [Sensor 6] Measuring, 2/3.
+2025-07-16 22:17:50,969 [DEBUG] [Sensor 6] Response: 28.37.
+2025-07-16 22:17:51,010 [DEBUG] [Sensor 7] Measuring, 0/3.
+2025-07-16 22:17:51,074 [DEBUG] [Sensor 7] Response: 38.53.
+2025-07-16 22:17:51,115 [DEBUG] [Sensor 7] Measuring, 1/3.
+2025-07-16 22:17:51,180 [DEBUG] [Sensor 7] Response: 38.53.
+2025-07-16 22:17:51,220 [DEBUG] [Sensor 7] Measuring, 2/3.
+2025-07-16 22:17:51,288 [DEBUG] [Sensor 7] Response: 38.52.
+2025-07-16 22:17:51,329 [INFO] [Controller 2] Connection closed on port /dev/ttyUSB0
+2025-07-16 22:17:51,376 [INFO] [Main] Saving data: [id, value] = [6, 28.37].
+2025-07-16 22:17:51,379 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:17:51,485 [INFO] [Main] Saving data: [id, value] = [7, 38.52].
+2025-07-16 22:17:51,488 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:19:06,972 [INFO] [Main] Started main program.
+2025-07-16 22:19:09,076 [INFO] [Main] Connecting to database...
+2025-07-16 22:19:09,104 [INFO] [Main] Successfully connected to database.
+2025-07-16 22:19:09,106 [INFO] [Main] Getting datatables from database...
+2025-07-16 22:19:09,109 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:19:09,113 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 22:19:12,076 [INFO] [Main] Scanning controller units...
+2025-07-16 22:19:12,085 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 22:19:12,087 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 9600...
+2025-07-16 22:19:14,110 [INFO] [Main] Raw response on serial port /dev/ttyUSB0 with baudrate 9600: controller_id_raw = 2.
+2025-07-16 22:19:14,114 [INFO] [Controller 2] Created controller with id 2 and name NotSet.
+2025-07-16 22:19:14,115 [ERROR] [Controller 2] Failed to connect to port NotSet: [Errno 2] could not open port NotSet: [Errno 2] No such file or directory: 'NotSet'
+2025-07-16 22:19:14,131 [INFO] [Main] Creating sensors for controller with id 2...
+2025-07-16 22:19:14,132 [INFO] [Main] Setting info for sensor with id 6.
+2025-07-16 22:19:14,133 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f650e19ae60> added.
+2025-07-16 22:19:14,134 [INFO] [Main] Setting info for sensor with id 7.
+2025-07-16 22:19:14,135 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f650e19ac20> added.
+2025-07-16 22:19:14,136 [INFO] [Main] Creating graphs and sensor interface.
+2025-07-16 22:19:16,556 [INFO] [Main] Handling measurement loop.
+2025-07-16 22:19:16,560 [INFO] [Main] Measurement loop started.
+2025-07-16 22:19:16,562 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 22:19:16,573 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 22:19:18,830 [INFO] [Controller 2] Connection closed on port /dev/ttyUSB0
+2025-07-16 22:19:18,926 [INFO] [Main] Saving data: [id, value] = [6, 28.34].
+2025-07-16 22:19:18,935 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:19:19,113 [INFO] [Main] Saving data: [id, value] = [7, 37.83].
+2025-07-16 22:19:19,144 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:19:26,568 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 22:19:26,582 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 22:19:28,841 [INFO] [Controller 2] Connection closed on port /dev/ttyUSB0
+2025-07-16 22:19:28,927 [INFO] [Main] Saving data: [id, value] = [6, 28.34].
+2025-07-16 22:19:28,952 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:19:29,127 [INFO] [Main] Saving data: [id, value] = [7, 37.81].
+2025-07-16 22:19:29,159 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:19:36,573 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 22:19:36,615 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 22:19:38,872 [INFO] [Controller 2] Connection closed on port /dev/ttyUSB0
+2025-07-16 22:19:38,958 [INFO] [Main] Saving data: [id, value] = [6, 28.35].
+2025-07-16 22:19:38,978 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 22:19:39,134 [INFO] [Main] Saving data: [id, value] = [7, 37.53].
+2025-07-16 22:19:39,182 [INFO] [Main] Saving is not possible. Invalid datatable selected: .

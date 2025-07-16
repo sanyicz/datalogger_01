@@ -453,19 +453,28 @@ class App:
         self.logger.info(f"Found ports: {[p.device for p in ports]}")
         for port_info in ports:
             port = port_info.device
-            baudrate = self._baudrateVariable.get()
-            self.logger.info(f"Trying port {port} with baudrate {baudrate}...")
-            try:
-                serialConnection = serial.Serial(port, baudrate=baudrate, timeout=1, write_timeout=self._scanControllerTimeout)
+##            baudrate = self._baudrateVariable.get()
+            for baudrate in self._baudrates:
+                self.logger.info(f"Trying port {port} with baudrate {baudrate}...")
+                serialConnection = None
+                try:
+                    serialConnection = serial.Serial(port, baudrate=baudrate, timeout=1, write_timeout=self._scanControllerTimeout)
+                except (serial.SerialException, ValueError) as e:
+                    self.logger.info(f"Error on port {port}: {e}")
+                if serialConnection == None:
+                    continue
                 time.sleep(self._deviceInitTimeout) #wait for device to initialize
                 command = "GETID" + '\n'
                 serialConnection.write(command.encode(encoding="utf-8", errors="strict"))
                 controller_id_raw = serialConnection.readline().decode().strip() #decode("utf-8", "ignore")
-                self.logger.info(f"Raw response on serial port {port}with baudrate {baudrate}: controller_id_raw = {controller_id_raw}.")
+                self.logger.info(f"Raw response on serial port {port} with baudrate {baudrate}: controller_id_raw = {controller_id_raw}.")
+                if controller_id_raw == "":
+                    continue
                 controller_id_raw = int(controller_id_raw)
                 if isinstance(controller_id_raw, int):
                     controller = Controller(controller_id_raw)
                     controller.setPort(port)
+                    controller.setBaudrate(baudrate)
                     self._controllers.append(controller)
                     command = "GETIDS" + '\n'
                     serialConnection.write(command.encode(encoding="utf-8", errors="strict"))
@@ -498,8 +507,6 @@ class App:
                     break
                 else:
                     pass
-            except (serial.SerialException, ValueError) as e:
-                self.logger.info(f"Error on port {port}: {e}")
         if len(ports) == 0:
             text = "No serial ports detected."
             self.logger.info(text)
