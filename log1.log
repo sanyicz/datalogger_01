@@ -6142,3 +6142,355 @@
 2025-07-16 13:42:57,684 [INFO] [Main] No serial ports detected.
 2025-07-16 13:42:59,891 [INFO] [Main] There are no controller units.
 2025-07-16 13:51:24,576 [INFO] [Main] Started main program.
+2025-07-16 17:57:33,293 [INFO] [Main] Started main program.
+2025-07-16 17:58:01,266 [INFO] [Main] Started main program.
+2025-07-16 17:58:03,409 [INFO] [Main] Connecting to database...
+2025-07-16 17:58:03,444 [INFO] [Main] Successfully connected to database.
+2025-07-16 17:58:03,449 [INFO] [Main] Getting datatables from database...
+2025-07-16 17:58:03,458 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 17:58:03,467 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 17:58:16,409 [INFO] [Main] Starting datalogger simulation.
+2025-07-16 17:58:16,435 [INFO] [Controller 1] Created controller with id 1 and name SimCon1.
+2025-07-16 17:58:16,438 [ERROR] [Controller 1] Failed to connect to port NotSet: [Errno 2] could not open port NotSet: [Errno 2] No such file or directory: 'NotSet'
+2025-07-16 17:58:16,440 [INFO] [Controller 1] Sensor <Sensor.Sensor object at 0x7f75ab6fe410> added.
+2025-07-16 17:58:16,442 [INFO] [Controller 1] Sensor <Sensor.Sensor object at 0x7f75ab6fe2c0> added.
+2025-07-16 17:58:16,678 [INFO] [Main] Simulation loop started.
+2025-07-16 17:58:16,803 [INFO] [Main] Saving data: [id, value] = [1, 37].
+2025-07-16 17:58:16,805 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 17:58:16,951 [INFO] [Main] Saving data: [id, value] = [2, 84].
+2025-07-16 17:58:16,954 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 17:58:26,735 [INFO] [Main] Saving data: [id, value] = [1, 69].
+2025-07-16 17:58:26,738 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 17:58:26,902 [INFO] [Main] Saving data: [id, value] = [2, 60].
+2025-07-16 17:58:26,943 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 17:58:36,781 [INFO] [Main] Saving data: [id, value] = [1, 68].
+2025-07-16 17:58:36,797 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 17:58:36,932 [INFO] [Main] Saving data: [id, value] = [2, 100].
+2025-07-16 17:58:36,934 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 17:58:46,771 [INFO] [Main] Saving data: [id, value] = [1, 40].
+2025-07-16 17:58:46,787 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 17:58:46,956 [INFO] [Main] Saving data: [id, value] = [2, 70].
+2025-07-16 17:58:46,991 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 17:58:56,805 [INFO] [Main] Saving data: [id, value] = [1, 56].
+2025-07-16 17:58:56,848 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 17:58:57,047 [INFO] [Main] Saving data: [id, value] = [2, 25].
+2025-07-16 17:58:57,052 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 17:59:06,815 [INFO] [Main] Saving data: [id, value] = [1, 84].
+2025-07-16 17:59:06,818 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 17:59:06,945 [INFO] [Main] Saving data: [id, value] = [2, 37].
+2025-07-16 17:59:06,947 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 17:59:16,798 [INFO] [Main] Saving data: [id, value] = [1, 68].
+2025-07-16 17:59:17,037 [INFO] [Main] Saving data: [id, value] = [2, 32].
+2025-07-16 17:59:26,797 [INFO] [Main] Saving data: [id, value] = [1, 79].
+2025-07-16 17:59:26,963 [INFO] [Main] Saving data: [id, value] = [2, 63].
+2025-07-16 17:59:36,810 [INFO] [Main] Saving data: [id, value] = [1, 24].
+2025-07-16 17:59:37,059 [INFO] [Main] Saving data: [id, value] = [2, 25].
+2025-07-16 17:59:47,068 [INFO] [Main] Saving data: [id, value] = [1, 89].
+2025-07-16 17:59:47,278 [INFO] [Main] Saving data: [id, value] = [2, 90].
+2025-07-16 17:59:56,941 [INFO] [Main] Saving data: [id, value] = [1, 18].
+2025-07-16 17:59:57,166 [INFO] [Main] Saving data: [id, value] = [2, 33].
+2025-07-16 18:00:07,029 [INFO] [Main] Saving data: [id, value] = [1, 71].
+2025-07-16 18:00:07,256 [INFO] [Main] Saving data: [id, value] = [2, 27].
+2025-07-16 18:00:14,074 [INFO] [Main] Starting datalogger simulation.
+2025-07-16 18:17:12,990 [INFO] [Main] Started main program.
+2025-07-16 18:17:15,228 [INFO] [Main] Connecting to database...
+2025-07-16 18:17:15,234 [INFO] [Main] Successfully connected to database.
+2025-07-16 18:17:15,235 [INFO] [Main] Getting datatables from database...
+2025-07-16 18:17:15,238 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 18:17:15,241 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 18:17:19,181 [INFO] [Main] Handling simulation loop.
+2025-07-16 18:17:19,203 [INFO] [Controller 1] Created controller with id 1 and name SimCon1.
+2025-07-16 18:17:19,207 [ERROR] [Controller 1] Failed to connect to port NotSet: [Errno 2] could not open port NotSet: [Errno 2] No such file or directory: 'NotSet'
+2025-07-16 18:17:19,209 [INFO] [Controller 1] Sensor <Sensor.Sensor object at 0x7fdfdbea49a0> added.
+2025-07-16 18:17:19,212 [INFO] [Controller 1] Sensor <Sensor.Sensor object at 0x7fdfdbea4a30> added.
+2025-07-16 18:17:19,388 [INFO] [Main] Simulation loop started.
+2025-07-16 18:17:19,489 [INFO] [Main] Saving data: [id, value] = [1, 71].
+2025-07-16 18:17:19,520 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 18:17:19,644 [INFO] [Main] Saving data: [id, value] = [2, 15].
+2025-07-16 18:17:19,646 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 18:17:22,469 [INFO] [Main] Measuring sensor with id 1 in controller 1.
+2025-07-16 18:35:24,748 [INFO] [Main] Started main program.
+2025-07-16 18:35:26,866 [INFO] [Main] Connecting to database...
+2025-07-16 18:35:26,869 [INFO] [Main] Successfully connected to database.
+2025-07-16 18:35:26,871 [INFO] [Main] Getting datatables from database...
+2025-07-16 18:35:26,873 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 18:35:26,876 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 18:35:38,202 [INFO] [Main] Handling simulation loop.
+2025-07-16 18:35:38,204 [INFO] [Controller 1] Created controller with id 1 and name SimCon1.
+2025-07-16 18:35:38,205 [ERROR] [Controller 1] Failed to connect to port NotSet: [Errno 2] could not open port NotSet: [Errno 2] No such file or directory: 'NotSet'
+2025-07-16 18:35:38,207 [INFO] [Controller 1] Sensor <Sensor.Sensor object at 0x7efdeae49c90> added.
+2025-07-16 18:35:38,209 [INFO] [Controller 1] Sensor <Sensor.Sensor object at 0x7efdeae4a980> added.
+2025-07-16 18:35:38,429 [INFO] [Main] Simulation loop started.
+2025-07-16 18:35:38,530 [INFO] [Main] Saving data: [id, value] = [1, 93].
+2025-07-16 18:35:38,532 [INFO] [Main] Saving is not possible. An error occurred: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Create new (sensorid, value) VALUES (1,93)' at line 1").
+2025-07-16 18:35:38,665 [INFO] [Main] Saving data: [id, value] = [2, 13].
+2025-07-16 18:35:38,667 [INFO] [Main] Saving is not possible. An error occurred: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Create new (sensorid, value) VALUES (2,13)' at line 1").
+2025-07-16 18:35:48,560 [INFO] [Main] Saving data: [id, value] = [1, 45].
+2025-07-16 18:35:48,593 [INFO] [Main] Saving is not possible. An error occurred: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Create new (sensorid, value) VALUES (1,45)' at line 1").
+2025-07-16 18:35:48,718 [INFO] [Main] Saving data: [id, value] = [2, 52].
+2025-07-16 18:35:48,720 [INFO] [Main] Saving is not possible. An error occurred: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Create new (sensorid, value) VALUES (2,52)' at line 1").
+2025-07-16 18:35:58,535 [INFO] [Main] Saving data: [id, value] = [1, 67].
+2025-07-16 18:35:58,689 [INFO] [Main] Saving data: [id, value] = [2, 4].
+2025-07-16 18:36:08,516 [INFO] [Main] Saving data: [id, value] = [1, 68].
+2025-07-16 18:36:08,648 [INFO] [Main] Saving data: [id, value] = [2, 36].
+2025-07-16 18:36:15,522 [INFO] [Main] Handling simulation loop.
+2025-07-16 18:36:47,039 [INFO] [Main] Started main program.
+2025-07-16 18:36:49,810 [INFO] [Main] Connecting to database...
+2025-07-16 18:36:49,814 [INFO] [Main] Successfully connected to database.
+2025-07-16 18:36:49,815 [INFO] [Main] Getting datatables from database...
+2025-07-16 18:36:49,820 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 18:36:49,826 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 18:36:54,954 [INFO] [Main] Handling simulation loop.
+2025-07-16 18:36:54,956 [INFO] [Controller 1] Created controller with id 1 and name SimCon1.
+2025-07-16 18:36:54,957 [ERROR] [Controller 1] Failed to connect to port NotSet: [Errno 2] could not open port NotSet: [Errno 2] No such file or directory: 'NotSet'
+2025-07-16 18:36:54,958 [INFO] [Controller 1] Sensor <Sensor.Sensor object at 0x7f088ac8e3e0> added.
+2025-07-16 18:36:54,959 [INFO] [Controller 1] Sensor <Sensor.Sensor object at 0x7f088ac8e170> added.
+2025-07-16 18:36:55,173 [INFO] [Main] Simulation loop started.
+2025-07-16 18:36:55,273 [INFO] [Main] Saving data: [id, value] = [1, 76].
+2025-07-16 18:36:55,276 [INFO] [Main] Saving is not possible. Invalid datatable selected: Create new.
+2025-07-16 18:36:55,405 [INFO] [Main] Saving data: [id, value] = [2, 36].
+2025-07-16 18:36:55,406 [INFO] [Main] Saving is not possible. Invalid datatable selected: Create new.
+2025-07-16 18:37:05,258 [INFO] [Main] Saving data: [id, value] = [1, 36].
+2025-07-16 18:37:05,268 [INFO] [Main] Saving is not possible. Invalid datatable selected: Create new.
+2025-07-16 18:37:05,406 [INFO] [Main] Saving data: [id, value] = [2, 75].
+2025-07-16 18:37:05,407 [INFO] [Main] Saving is not possible. Invalid datatable selected: Create new.
+2025-07-16 18:37:15,247 [INFO] [Main] Saving data: [id, value] = [1, 77].
+2025-07-16 18:37:15,249 [INFO] [Main] Saving is not possible. Invalid datatable selected: Create new.
+2025-07-16 18:37:15,355 [INFO] [Main] Saving data: [id, value] = [2, 6].
+2025-07-16 18:37:15,357 [INFO] [Main] Saving is not possible. Invalid datatable selected: Create new.
+2025-07-16 18:37:25,371 [INFO] [Main] Saving data: [id, value] = [1, 41].
+2025-07-16 18:37:25,374 [INFO] [Main] Saving is not possible. Invalid datatable selected: Create new.
+2025-07-16 18:37:25,485 [INFO] [Main] Saving data: [id, value] = [2, 95].
+2025-07-16 18:37:25,487 [INFO] [Main] Saving is not possible. Invalid datatable selected: Create new.
+2025-07-16 18:39:01,039 [INFO] [Main] Started main program.
+2025-07-16 18:39:05,691 [INFO] [Main] Handling simulation loop.
+2025-07-16 18:39:05,696 [INFO] [Controller 1] Created controller with id 1 and name SimCon1.
+2025-07-16 18:39:05,733 [ERROR] [Controller 1] Failed to connect to port NotSet: [Errno 2] could not open port NotSet: [Errno 2] No such file or directory: 'NotSet'
+2025-07-16 18:39:05,735 [INFO] [Controller 1] Sensor <Sensor.Sensor object at 0x7fefc2afe2f0> added.
+2025-07-16 18:39:05,736 [INFO] [Controller 1] Sensor <Sensor.Sensor object at 0x7fefc2afe410> added.
+2025-07-16 18:39:05,911 [INFO] [Main] Simulation loop started.
+2025-07-16 18:39:06,018 [INFO] [Main] Saving is not possible. No database connection.
+2025-07-16 18:39:06,162 [INFO] [Main] Saving is not possible. No database connection.
+2025-07-16 18:39:16,227 [INFO] [Main] Saving is not possible. No database connection.
+2025-07-16 18:39:16,344 [INFO] [Main] Saving is not possible. No database connection.
+2025-07-16 18:39:26,203 [INFO] [Main] Saving is not possible. No database connection.
+2025-07-16 18:39:26,307 [INFO] [Main] Saving is not possible. No database connection.
+2025-07-16 18:39:36,170 [INFO] [Main] Saving is not possible. No database connection.
+2025-07-16 18:39:36,289 [INFO] [Main] Saving is not possible. No database connection.
+2025-07-16 18:39:46,210 [INFO] [Main] Saving is not possible. No database connection.
+2025-07-16 18:39:46,364 [INFO] [Main] Saving is not possible. No database connection.
+2025-07-16 18:39:56,126 [INFO] [Main] Saving is not possible. No database connection.
+2025-07-16 18:39:56,247 [INFO] [Main] Saving is not possible. No database connection.
+2025-07-16 18:40:06,194 [INFO] [Main] Saving is not possible. No database connection.
+2025-07-16 18:40:06,363 [INFO] [Main] Saving is not possible. No database connection.
+2025-07-16 18:40:14,987 [INFO] [Main] Handling simulation loop.
+2025-07-16 19:30:55,870 [INFO] [Main] Started main program.
+2025-07-16 19:30:57,499 [INFO] [Main] Connecting to database...
+2025-07-16 19:30:57,535 [INFO] [Main] Successfully connected to database.
+2025-07-16 19:30:57,536 [INFO] [Main] Getting datatables from database...
+2025-07-16 19:30:57,539 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 19:30:57,543 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 19:39:52,835 [INFO] [Main] Started main program.
+2025-07-16 19:39:55,411 [INFO] [Main] Connecting to database...
+2025-07-16 19:39:55,469 [INFO] [Main] Successfully connected to database.
+2025-07-16 19:39:55,473 [INFO] [Main] Getting datatables from database...
+2025-07-16 19:39:55,482 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 19:39:55,492 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 19:40:00,155 [INFO] [Main] Scanning controller units...
+2025-07-16 19:40:00,169 [INFO] [Main] Found ports: []
+2025-07-16 19:40:00,171 [INFO] [Main] No serial ports detected.
+2025-07-16 21:33:42,915 [INFO] [Main] Started main program.
+2025-07-16 21:33:46,469 [INFO] [Main] Connecting to database...
+2025-07-16 21:33:46,478 [INFO] [Main] Successfully connected to database.
+2025-07-16 21:33:46,479 [INFO] [Main] Getting datatables from database...
+2025-07-16 21:33:46,482 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:33:46,488 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:33:56,476 [INFO] [Main] Scanning controller units...
+2025-07-16 21:33:56,496 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 21:33:56,501 [INFO] [Main] Trying port /dev/ttyUSB0...
+2025-07-16 21:33:58,526 [INFO] [Main] Raw response on serial port /dev/ttyUSB0: controller_id_raw = 2.
+2025-07-16 21:33:58,531 [INFO] [Controller 2] Created controller with id 2 and name NotSet.
+2025-07-16 21:33:58,532 [ERROR] [Controller 2] Failed to connect to port NotSet: [Errno 2] could not open port NotSet: [Errno 2] No such file or directory: 'NotSet'
+2025-07-16 21:33:58,550 [INFO] [Main] Creating sensors for controller with id 2...
+2025-07-16 21:33:58,552 [INFO] [Sensor 6] Created sensor with id 6 and name NotSet.
+2025-07-16 21:33:58,553 [INFO] [Main] Setting info for sensor with id 6.
+2025-07-16 21:33:58,556 [DEBUG] [Sensor 6] Setting name of sensor with id 6 to T4.
+2025-07-16 21:33:58,557 [DEBUG] [Sensor 6] Setting type of sensor with id 6 to GY21.
+2025-07-16 21:33:58,559 [DEBUG] [Sensor 6] Setting quantity of sensor with id 6 to T.
+2025-07-16 21:33:58,560 [DEBUG] [Sensor 6] Setting unit of sensor with id 6 to C.
+2025-07-16 21:33:58,561 [DEBUG] [Sensor 6] Setting serial number of sensor with 6 to GY21_1.
+2025-07-16 21:33:58,562 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f2f979bae00> added.
+2025-07-16 21:33:58,564 [INFO] [Sensor 7] Created sensor with id 7 and name NotSet.
+2025-07-16 21:33:58,565 [INFO] [Main] Setting info for sensor with id 7.
+2025-07-16 21:33:58,567 [DEBUG] [Sensor 7] Setting name of sensor with id 7 to RH4.
+2025-07-16 21:33:58,568 [DEBUG] [Sensor 7] Setting type of sensor with id 7 to GY21.
+2025-07-16 21:33:58,569 [DEBUG] [Sensor 7] Setting quantity of sensor with id 7 to RH.
+2025-07-16 21:33:58,571 [DEBUG] [Sensor 7] Setting unit of sensor with id 7 to %.
+2025-07-16 21:33:58,572 [DEBUG] [Sensor 7] Setting serial number of sensor with 7 to GY21_1.
+2025-07-16 21:33:58,573 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f2f979bab90> added.
+2025-07-16 21:33:58,575 [INFO] [Main] Creating graphs and sensor interface.
+2025-07-16 21:38:28,279 [INFO] [Main] Started main program.
+2025-07-16 21:38:29,522 [INFO] [Main] Connecting to database...
+2025-07-16 21:38:29,525 [INFO] [Main] Successfully connected to database.
+2025-07-16 21:38:29,527 [INFO] [Main] Getting datatables from database...
+2025-07-16 21:38:29,531 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:38:29,535 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:38:35,226 [INFO] [Main] Scanning controller units...
+2025-07-16 21:38:35,285 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 21:39:40,437 [INFO] [Main] Started main program.
+2025-07-16 21:39:43,202 [INFO] [Main] Connecting to database...
+2025-07-16 21:39:43,206 [INFO] [Main] Successfully connected to database.
+2025-07-16 21:39:43,208 [INFO] [Main] Getting datatables from database...
+2025-07-16 21:39:43,213 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:39:43,219 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:39:44,490 [INFO] [Main] Scanning controller units...
+2025-07-16 21:39:44,499 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 21:39:44,502 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 9600...
+2025-07-16 21:39:47,519 [INFO] [Main] Raw response on serial port /dev/ttyUSB0: controller_id_raw = .
+2025-07-16 21:39:47,522 [INFO] [Main] Error on port /dev/ttyUSB0: invalid literal for int() with base 10: ''
+2025-07-16 21:39:47,523 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 19200...
+2025-07-16 21:39:50,531 [INFO] [Main] Error on port /dev/ttyUSB0: 'utf-8' codec can't decode byte 0xc3 in position 0: invalid continuation byte
+2025-07-16 21:39:50,539 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 38400...
+2025-07-16 21:39:53,547 [INFO] [Main] Error on port /dev/ttyUSB0: 'utf-8' codec can't decode byte 0xf8 in position 0: invalid start byte
+2025-07-16 21:39:53,552 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 57600...
+2025-07-16 21:39:56,561 [INFO] [Main] Error on port /dev/ttyUSB0: 'utf-8' codec can't decode byte 0x8a in position 4: invalid start byte
+2025-07-16 21:39:56,567 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 115200...
+2025-07-16 21:39:58,575 [INFO] [Main] Raw response on serial port /dev/ttyUSB0: controller_id_raw = 28.23,37.77.
+2025-07-16 21:39:58,578 [INFO] [Main] Error on port /dev/ttyUSB0: invalid literal for int() with base 10: '28.23,37.77'
+2025-07-16 21:39:58,579 [INFO] [Main] Creating graphs and sensor interface.
+2025-07-16 21:39:58,584 [INFO] [Main] There are no available or simulated controller units.
+2025-07-16 21:40:45,420 [INFO] [Main] Started main program.
+2025-07-16 21:40:46,434 [INFO] [Main] Connecting to database...
+2025-07-16 21:40:46,440 [INFO] [Main] Successfully connected to database.
+2025-07-16 21:40:46,446 [INFO] [Main] Getting datatables from database...
+2025-07-16 21:40:46,449 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:40:46,453 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:40:47,378 [INFO] [Main] Scanning controller units...
+2025-07-16 21:40:47,398 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 21:40:47,399 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 9600...
+2025-07-16 21:40:50,415 [INFO] [Main] Raw response on serial port /dev/ttyUSB0with baudrate 9600: controller_id_raw = .
+2025-07-16 21:40:50,418 [INFO] [Main] Error on port /dev/ttyUSB0: invalid literal for int() with base 10: ''
+2025-07-16 21:40:50,420 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 19200...
+2025-07-16 21:40:53,429 [INFO] [Main] Error on port /dev/ttyUSB0: 'utf-8' codec can't decode byte 0x83 in position 0: invalid start byte
+2025-07-16 21:40:53,434 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 38400...
+2025-07-16 21:40:56,443 [INFO] [Main] Error on port /dev/ttyUSB0: 'utf-8' codec can't decode byte 0xc8 in position 0: invalid continuation byte
+2025-07-16 21:40:56,450 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 57600...
+2025-07-16 21:40:59,458 [INFO] [Main] Error on port /dev/ttyUSB0: 'utf-8' codec can't decode byte 0xc4 in position 5: unexpected end of data
+2025-07-16 21:40:59,464 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 115200...
+2025-07-16 21:41:01,472 [INFO] [Main] Raw response on serial port /dev/ttyUSB0with baudrate 115200: controller_id_raw = 28.24,36.92.
+2025-07-16 21:41:01,474 [INFO] [Main] Error on port /dev/ttyUSB0: invalid literal for int() with base 10: '28.24,36.92'
+2025-07-16 21:41:01,475 [INFO] [Main] Creating graphs and sensor interface.
+2025-07-16 21:41:01,484 [INFO] [Main] There are no available or simulated controller units.
+2025-07-16 21:41:10,970 [INFO] [Main] Handling simulation loop.
+2025-07-16 21:41:11,018 [INFO] [Controller 1] Created controller with id 1 and name SimCon1.
+2025-07-16 21:41:11,020 [ERROR] [Controller 1] Failed to connect to port NotSet: [Errno 2] could not open port NotSet: [Errno 2] No such file or directory: 'NotSet'
+2025-07-16 21:41:11,021 [INFO] [Controller 1] Sensor <Sensor.Sensor object at 0x7f3178492a10> added.
+2025-07-16 21:41:11,022 [INFO] [Controller 1] Sensor <Sensor.Sensor object at 0x7f3178491540> added.
+2025-07-16 21:41:11,199 [INFO] [Main] Simulation loop started.
+2025-07-16 21:41:11,299 [INFO] [Main] Saving data: [id, value] = [1, 21].
+2025-07-16 21:41:11,328 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 21:41:11,505 [INFO] [Main] Saving data: [id, value] = [2, 63].
+2025-07-16 21:41:11,534 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 21:41:59,594 [INFO] [Main] Started main program.
+2025-07-16 21:42:00,778 [INFO] [Main] Connecting to database...
+2025-07-16 21:42:00,831 [INFO] [Main] Successfully connected to database.
+2025-07-16 21:42:00,833 [INFO] [Main] Getting datatables from database...
+2025-07-16 21:42:00,840 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:42:00,845 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:42:02,707 [INFO] [Main] Scanning controller units...
+2025-07-16 21:42:02,717 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 21:42:02,718 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 9600...
+2025-07-16 21:42:05,734 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 19200...
+2025-07-16 21:42:08,743 [INFO] [Main] Error on port /dev/ttyUSB0: 'utf-8' codec can't decode byte 0xc3 in position 0: invalid continuation byte
+2025-07-16 21:42:08,751 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 38400...
+2025-07-16 21:42:11,759 [INFO] [Main] Error on port /dev/ttyUSB0: 'utf-8' codec can't decode byte 0x90 in position 2: invalid start byte
+2025-07-16 21:42:11,765 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 57600...
+2025-07-16 21:42:14,774 [INFO] [Main] Error on port /dev/ttyUSB0: 'utf-8' codec can't decode byte 0xc4 in position 5: unexpected end of data
+2025-07-16 21:42:14,781 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 115200...
+2025-07-16 21:42:16,788 [INFO] [Main] Raw response on serial port /dev/ttyUSB0with baudrate 115200: controller_id_raw = 28.17,36.47.
+2025-07-16 21:42:16,791 [INFO] [Main] Error on port /dev/ttyUSB0: invalid literal for int() with base 10: '28.17,36.47'
+2025-07-16 21:42:16,800 [INFO] [Main] Creating graphs and sensor interface.
+2025-07-16 21:42:16,808 [INFO] [Main] There are no available or simulated controller units.
+2025-07-16 21:42:50,394 [INFO] [Main] Started main program.
+2025-07-16 21:42:53,379 [INFO] [Main] Connecting to database...
+2025-07-16 21:42:53,427 [INFO] [Main] Successfully connected to database.
+2025-07-16 21:42:53,430 [INFO] [Main] Getting datatables from database...
+2025-07-16 21:42:53,434 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:42:53,439 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:42:54,267 [INFO] [Main] Scanning controller units...
+2025-07-16 21:42:54,277 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 21:42:54,280 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 9600...
+2025-07-16 21:42:57,299 [INFO] [Main] Raw response on serial port /dev/ttyUSB0with baudrate 9600: controller_id_raw = .
+2025-07-16 21:42:57,302 [INFO] [Main] Error on port /dev/ttyUSB0: invalid literal for int() with base 10: ''
+2025-07-16 21:42:57,304 [INFO] [Main] Creating graphs and sensor interface.
+2025-07-16 21:42:57,310 [INFO] [Main] There are no available or simulated controller units.
+2025-07-16 21:43:40,699 [INFO] [Main] Started main program.
+2025-07-16 21:43:42,540 [INFO] [Main] Connecting to database...
+2025-07-16 21:43:42,544 [INFO] [Main] Successfully connected to database.
+2025-07-16 21:43:42,546 [INFO] [Main] Getting datatables from database...
+2025-07-16 21:43:42,551 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:43:42,558 [INFO] [Main] Getting info of sensors from database...
+2025-07-16 21:43:43,835 [INFO] [Main] Scanning controller units...
+2025-07-16 21:43:43,843 [INFO] [Main] Found ports: ['/dev/ttyUSB0']
+2025-07-16 21:43:43,845 [INFO] [Main] Trying port /dev/ttyUSB0 with baudrate 9600...
+2025-07-16 21:43:45,869 [INFO] [Main] Raw response on serial port /dev/ttyUSB0with baudrate 9600: controller_id_raw = 2.
+2025-07-16 21:43:45,871 [INFO] [Controller 2] Created controller with id 2 and name NotSet.
+2025-07-16 21:43:45,874 [ERROR] [Controller 2] Failed to connect to port NotSet: [Errno 2] could not open port NotSet: [Errno 2] No such file or directory: 'NotSet'
+2025-07-16 21:43:45,891 [INFO] [Main] Creating sensors for controller with id 2...
+2025-07-16 21:43:45,894 [INFO] [Sensor 6] Created sensor with id 6 and name NotSet.
+2025-07-16 21:43:45,904 [INFO] [Main] Setting info for sensor with id 6.
+2025-07-16 21:43:45,906 [DEBUG] [Sensor 6] Setting name of sensor with id 6 to T4.
+2025-07-16 21:43:45,909 [DEBUG] [Sensor 6] Setting type of sensor with id 6 to GY21.
+2025-07-16 21:43:45,911 [DEBUG] [Sensor 6] Setting quantity of sensor with id 6 to T.
+2025-07-16 21:43:45,912 [DEBUG] [Sensor 6] Setting unit of sensor with id 6 to C.
+2025-07-16 21:43:45,914 [DEBUG] [Sensor 6] Setting serial number of sensor with 6 to GY21_1.
+2025-07-16 21:43:45,915 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f268c052c80> added.
+2025-07-16 21:43:45,916 [INFO] [Sensor 7] Created sensor with id 7 and name NotSet.
+2025-07-16 21:43:45,917 [INFO] [Main] Setting info for sensor with id 7.
+2025-07-16 21:43:45,918 [DEBUG] [Sensor 7] Setting name of sensor with id 7 to RH4.
+2025-07-16 21:43:45,920 [DEBUG] [Sensor 7] Setting type of sensor with id 7 to GY21.
+2025-07-16 21:43:45,921 [DEBUG] [Sensor 7] Setting quantity of sensor with id 7 to RH.
+2025-07-16 21:43:45,922 [DEBUG] [Sensor 7] Setting unit of sensor with id 7 to %.
+2025-07-16 21:43:45,923 [DEBUG] [Sensor 7] Setting serial number of sensor with 7 to GY21_1.
+2025-07-16 21:43:45,924 [INFO] [Controller 2] Sensor <Sensor.Sensor object at 0x7f268c052a10> added.
+2025-07-16 21:43:45,926 [INFO] [Main] Creating graphs and sensor interface.
+2025-07-16 21:43:54,132 [INFO] [Main] Handling measurement loop.
+2025-07-16 21:43:54,155 [INFO] [Main] Measurement loop started.
+2025-07-16 21:43:54,157 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 21:43:54,168 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 21:43:54,170 [DEBUG] [Sensor 6] Measuring, 0/3.
+2025-07-16 21:43:54,234 [DEBUG] [Sensor 6] Response: 28.14.
+2025-07-16 21:43:54,273 [DEBUG] [Sensor 6] Measuring, 1/3.
+2025-07-16 21:43:54,337 [DEBUG] [Sensor 6] Response: 28.15.
+2025-07-16 21:43:54,376 [DEBUG] [Sensor 6] Measuring, 2/3.
+2025-07-16 21:43:54,440 [DEBUG] [Sensor 6] Response: 28.15.
+2025-07-16 21:43:54,480 [DEBUG] [Sensor 7] Measuring, 0/3.
+2025-07-16 21:43:54,544 [DEBUG] [Sensor 7] Response: 36.28.
+2025-07-16 21:43:54,583 [DEBUG] [Sensor 7] Measuring, 1/3.
+2025-07-16 21:43:54,647 [DEBUG] [Sensor 7] Response: 36.28.
+2025-07-16 21:43:54,687 [DEBUG] [Sensor 7] Measuring, 2/3.
+2025-07-16 21:43:54,751 [DEBUG] [Sensor 7] Response: 36.28.
+2025-07-16 21:43:54,791 [INFO] [Controller 2] Connection closed on port /dev/ttyUSB0
+2025-07-16 21:43:54,820 [INFO] [Main] Saving data: [id, value] = [6, 28.15].
+2025-07-16 21:43:54,822 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 21:43:54,987 [INFO] [Main] Saving data: [id, value] = [7, 36.28].
+2025-07-16 21:43:55,026 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 21:44:54,157 [INFO] [Main] Measuring controller with id 2.
+2025-07-16 21:44:54,217 [INFO] [Controller 2] Connected to port /dev/ttyUSB0
+2025-07-16 21:44:54,219 [DEBUG] [Sensor 6] Measuring, 0/3.
+2025-07-16 21:44:54,283 [DEBUG] [Sensor 6] Response: 28.04.
+2025-07-16 21:44:54,323 [DEBUG] [Sensor 6] Measuring, 1/3.
+2025-07-16 21:44:54,389 [DEBUG] [Sensor 6] Response: 28.04.
+2025-07-16 21:44:54,429 [DEBUG] [Sensor 6] Measuring, 2/3.
+2025-07-16 21:44:54,494 [DEBUG] [Sensor 6] Response: 28.05.
+2025-07-16 21:44:54,535 [DEBUG] [Sensor 7] Measuring, 0/3.
+2025-07-16 21:44:54,602 [DEBUG] [Sensor 7] Response: 35.90.
+2025-07-16 21:44:54,643 [DEBUG] [Sensor 7] Measuring, 1/3.
+2025-07-16 21:44:54,710 [DEBUG] [Sensor 7] Response: 35.89.
+2025-07-16 21:44:54,754 [DEBUG] [Sensor 7] Measuring, 2/3.
+2025-07-16 21:44:54,819 [DEBUG] [Sensor 7] Response: 35.89.
+2025-07-16 21:44:54,859 [INFO] [Controller 2] Connection closed on port /dev/ttyUSB0
+2025-07-16 21:44:54,911 [INFO] [Main] Saving data: [id, value] = [6, 28.05].
+2025-07-16 21:44:54,963 [INFO] [Main] Saving is not possible. Invalid datatable selected: .
+2025-07-16 21:44:55,099 [INFO] [Main] Saving data: [id, value] = [7, 35.89].
+2025-07-16 21:44:55,101 [INFO] [Main] Saving is not possible. Invalid datatable selected: .

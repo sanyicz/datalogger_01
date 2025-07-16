@@ -29,7 +29,8 @@ logging.getLogger("Sensor 2").setLevel(logging.WARNING)
 logging.getLogger("Sensor 3").setLevel(logging.WARNING)
 logging.getLogger("Sensor 4").setLevel(logging.WARNING)
 logging.getLogger("Sensor 5").setLevel(logging.WARNING)
-
+logging.getLogger("Sensor 6").setLevel(logging.WARNING)
+logging.getLogger("Sensor 7").setLevel(logging.WARNING)
 
 class App:
     def __init__(self, root):
@@ -84,8 +85,8 @@ class App:
         self._controllers = []
         self._sensorGUIinfo = {} #structure: {sensorid : {"value" : value, "inuse" : inuse}}
         self._commands = {}
-        self._baudRates = [9600, 19200, 38400, 57600, 115200]
-        self._baudRateVariable = tk.IntVar(value=self._baudRates[0])
+        self._baudrates = [9600, 19200, 38400, 57600, 115200]
+        self._baudrateVariable = tk.IntVar(value=self._baudrates[0])
 
         self._stopEvent = Event()
         self._queue = queue.Queue()
@@ -97,6 +98,7 @@ class App:
 
         self._measurementResults = {} #structure: {sensorid : [(), ()], ...}
         self._measurementResultsToPlot = {"global" : 24} #structure: {"global" : 24, sensorid : number, ...}
+        self._measurementResultsToPlotUseGlobal = tk.IntVar(value=1)
         self._measurementDatetimes = {}
         self._graphs = {} #sensorid : graph
 
@@ -153,7 +155,6 @@ class App:
         _numberOfValuesToPlotFrame = tk.Frame(self._measurementLoopSettingsFrame)
         _numberOfValuesToPlotFrame.grid(row=1, column=1)
         tk.Entry(_numberOfValuesToPlotFrame, textvariable=self._numberOfValuesToPlotGlobalVariable, width=6).grid(row=0, column=0)
-        self._measurementResultsToPlotUseGlobal = tk.IntVar(value=1)
         tk.Checkbutton(_numberOfValuesToPlotFrame, text="Use global", variable=self._measurementResultsToPlotUseGlobal, command=self.numberOfValuesToPlotCheckbuttonClicked).grid(row=0, column=1)
         #
         tk.Label(self._measurementLoopSettingsFrame, text="Baud rate").grid(row=2, column=0)
@@ -384,6 +385,16 @@ class App:
         else:
             pass
 
+    def measureSensor(self, controllerID, sensorID):
+        if not self._controllers:
+            return
+        text = f"Measuring sensor with id {sensorID} in controller {controllerID}."
+        self.log("guiStateInfo", text)
+        controller = self._controllers[cID]
+        command = str(sensorID)# + '\n' #where to add the line ending? Sensor.measure() adds it
+        result = controller.measure(command)
+        print(result)
+
     def editSensor(self, sensorID):
         if self._editSensorWindow is not None:
             return
@@ -442,15 +453,15 @@ class App:
         self.logger.info(f"Found ports: {[p.device for p in ports]}")
         for port_info in ports:
             port = port_info.device
-            baudrate = self._baudRateVariable.get()
-            self.logger.info(f"Trying port {port}...")
+            baudrate = self._baudrateVariable.get()
+            self.logger.info(f"Trying port {port} with baudrate {baudrate}...")
             try:
                 serialConnection = serial.Serial(port, baudrate=baudrate, timeout=1, write_timeout=self._scanControllerTimeout)
                 time.sleep(self._deviceInitTimeout) #wait for device to initialize
                 command = "GETID" + '\n'
                 serialConnection.write(command.encode(encoding="utf-8", errors="strict"))
                 controller_id_raw = serialConnection.readline().decode().strip() #decode("utf-8", "ignore")
-                self.logger.info(f"Raw response on serial port {port}: controller_id_raw = {controller_id_raw}.")
+                self.logger.info(f"Raw response on serial port {port}with baudrate {baudrate}: controller_id_raw = {controller_id_raw}.")
                 controller_id_raw = int(controller_id_raw)
                 if isinstance(controller_id_raw, int):
                     controller = Controller(controller_id_raw)
@@ -460,7 +471,7 @@ class App:
                     serialConnection.write(command.encode(encoding="utf-8", errors="strict"))
                     sensor_ids_raw = serialConnection.readline().decode().strip() #decode("utf-8", "ignore")
                     sensor_ids = sensor_ids_raw.split(",")
-##                    print(f"sensor_ids: {sensor_ids}")
+                    #print(f"sensor_ids: {sensor_ids}")
                     self.logger.info(f"Creating sensors for controller with id {controller.getID()}...")
                     for sensor_id in sensor_ids:
                         sensor_id = int(sensor_id)
@@ -471,7 +482,7 @@ class App:
                             if element[0] == sensor_id:
                                 sensorInfo = element
                                 break
-##                        print(f"sensorInfo: {sensorInfo}")
+                        #print(f"sensorInfo: {sensorInfo}")
                         if sensorInfo:
                             self.logger.info(f"Setting info for sensor with id {sensor_id}.")
                             sensor.setName(sensorInfo[1])
@@ -484,6 +495,7 @@ class App:
                             self.logger.info(f"No info for sensor with id {sensor_id}")
                             pass
                         controller.addSensors(sensor)
+                    break
                 else:
                     pass
             except (serial.SerialException, ValueError) as e:
@@ -510,6 +522,7 @@ class App:
                     self._graphManager.addGraph(_id=_id, _title=_name)
 
     def handleMeasurementLoop(self):
+        self.logger.info("Handling measurement loop.")
         if not self._controllers:
             text = "There are no controller units."
             self.logger.info(text)
@@ -574,7 +587,7 @@ class App:
         self.measurementLoopButton["text"] = "Start measurement"
 
     def handleSimulationLoop(self):
-        self.logger.info("Starting datalogger simulation.")
+        self.logger.info("Handling simulation loop.")
         self._controllers = []
         if self._simulationThread is None or not self._simulationThread.is_alive():
             if self._measurementThread is None or not self._measurementThread.is_alive():
@@ -765,7 +778,7 @@ class App:
                     datetimeVariable = tk.StringVar()
                     datetimeVariable.set("1970.01.01. 00:00:00")
                     tk.Label(self.controllersFrame, textvariable=datetimeVariable).grid(row=r_, column=6)
-                    tk.Button(self.controllersFrame, text="Measure").grid(row=r_, column=7)
+                    tk.Button(self.controllersFrame, text="Measure", command=lambda c=controllerID, s=sensorID: self.measureSensor(c, s)).grid(row=r_, column=7)
                     r_ += 1
                     _sensorDictionary["valueVariable"] = valueVariable
                     _sensorDictionary["inuseVariable"] = inuseVariable
@@ -782,7 +795,7 @@ class App:
         self.logger.info(f"Saving data: [id, value] = {data}.")
         self._currentDatatableName = self._selectDatatableVariable.get() #"measurements"
 ##        print(f"self._currentDatatableName: {self._currentDatatableName}")
-        if self._currentDatatableName == "":
+        if self._currentDatatableName in ["", "Create new"]:
             self.logger.info(f"Saving is not possible. Invalid datatable selected: {self._currentDatatableName}.")
             return
         if self._simulationThread is not None:

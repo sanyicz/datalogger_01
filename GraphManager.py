@@ -105,6 +105,7 @@ class GraphManager:
                 ax = data["axis"]
                 title = data["title"]
                 color = data["color"]
+                plotStyle = data["plotStyle"]
                 limits = data["limits"]
                 for key, value in limits.items():
                     self._plotLimitVariables[key].set(value)
@@ -132,15 +133,15 @@ class GraphManager:
 ##                print(f"color: {color}")
                 colors = ["blue", "red", "green", "orange", "purple", "brown", "black", "grey", "yellow"]
                 self._plotColorVariable = tk.StringVar()
-                color = color if color in colors else None
-                self._plotColorVariable.set(color) #set a default value
+                currentColor = color if color in colors else None
+                self._plotColorVariable.set(currentColor) #set a default value
                 tk.OptionMenu(limitsFrame, self._plotColorVariable, *colors).grid(row=3, column=2, columnspan=2)
                 #
                 tk.Label(limitsFrame, text="Plot style").grid(row=4, column=0, columnspan=2)
                 plotStyles = ["scatter", "line"]
                 self._plotStyleVariable = tk.StringVar()
-                plotStyle = plotStyles[0] if plotStyles else None
-                self._plotStyleVariable.set(plotStyle) #set a default value
+                currentPlotStyle = plotStyle if plotStyle in plotStyles else None
+                self._plotStyleVariable.set(currentPlotStyle) #set a default value
                 tk.OptionMenu(limitsFrame, self._plotStyleVariable, *plotStyles).grid(row=4, column=2, columnspan=2)
                 #
                 self.apply_button = tk.Button(limitsFrame, text="Apply settings", command=lambda _id=_id: self.applyPlotSettings(_id))
