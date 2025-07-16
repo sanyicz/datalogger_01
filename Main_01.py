@@ -390,7 +390,11 @@ class App:
             return
         text = f"Measuring sensor with id {sensorID} in controller {controllerID}."
         self.log("guiStateInfo", text)
-        controller = self._controllers[cID]
+        for controller in self._controllers:
+            controller_id = controller.getID()
+            if controller_id == controllerID:
+                controller = controller
+                break
         command = str(sensorID)# + '\n' #where to add the line ending? Sensor.measure() adds it
         result = controller.measure(command)
         print(result)
